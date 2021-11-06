@@ -58,7 +58,7 @@ nav ul li a:hover{
     top: 50%;
     left: 60%;
     position: absolute;
-    z-index: 999;
+    z-index: 9;
     height: 100vh;
     width: 100%;
     background: rgba(0, 241, 241, 0.384);
@@ -76,7 +76,7 @@ nav ul li a:hover{
     top: 2%;
     left:2%;
     position: absolute;
-    z-index: 999999;
+    z-index: 99;
     padding: 10px 10px;
     background-color: var(--verde);
     color: white;
@@ -228,6 +228,9 @@ strong{
     color: var(--verde);
     background-color: white ;
 }
+.doar,.redesDoação{
+    display: none;
+}
 
 @media(max-width:1212px){
     body{
@@ -237,7 +240,7 @@ strong{
     main h1{
         left: 0;
     }
-    nav, .quiz, .why, main a, .qrcode, .galeria li p{
+    nav, .quiz, .why, main a, .qrcode, .galeria li p {
         display: none;
     }
     .cards{
@@ -247,7 +250,68 @@ strong{
     }
     .galeria{
         display: block;
-  
+    }
+    .doar{
+        display: inline;
+        right: 5px;
+        top: 40%;
+        position: absolute;
+        z-index: 999;
+        background-color: rgba(255, 235, 205, 0.616);
+        padding: 20px 20px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    .doar img{
+        height: 30px;
+        width: auto;
+    }
+    .redesDoação{
+        display: none;
+        /* display: block; */
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        z-index: 9999;
+        position: absolute ;
+        text-align: center;
+        
 
-}
+    }
+    .redeinsta{
+        
+        border:1px solid white;
+        padding: 10px 40px;
+        border-radius: 5px;
+        background: url(https://macmagazine.com.br/wp-content/uploads/2019/11/04-instagram.png);
+        background-position: center;
+        background-size: cover;
+
+        display: inline;
+    }
+    .redesDoação p{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Zen Kurenaido', sans-serif;
+       
+       
+    }
+    .redesDoação a{
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+       
+        
+    }
+   
+    .qrcode2{
+        width: 100px;
+    }
+    .fechar{
+        border-radius: 0px 40px 40px 0px;
+        height: 80px;
+        width: 30px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+
+    }
 }
