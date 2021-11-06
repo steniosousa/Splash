@@ -50,16 +50,6 @@ slider.addEventListener('mousemove', e => {
 function Quiz() {
     const questionário = document.querySelector(".desafios");
     questionário.style.display="inline";
-    // if( questionário == true){
-    //     let close = document.querySelector(".close");
-    //     close.addEventListener("click", function {
-    //         questionário.style.display="none";
-    //     })
-    // }
-    // else{
-        
-
-    // }
     
 }
 function Close() {
@@ -68,4 +58,11 @@ function Close() {
     
     }
 
+    //Espaço reservado a doações;
+function doar(){
+    const doar = document.querySelector(".redesDoação").style.display="block";
+}
+function fechar(){
+    const fechar = document.querySelector(".redesDoação").style.display="none";
+}
     
