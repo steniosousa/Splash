@@ -237,7 +237,7 @@ strong{
     main h1{
         left: 0;
     }
-    nav, .quiz, .why, main a, .qrcode{
+    nav, .quiz, .why, main a, .qrcode, .galeria li p{
         display: none;
     }
     .cards{
