@@ -107,7 +107,8 @@ main h1{
     position: absolute;
     margin: 0;
     font-family: 'Inconsolata', monospace;
-    background-color: transparent;
+    background-color: transparent;	
+	width:400px;
   
 }
 .qrcode{
