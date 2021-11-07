@@ -240,6 +240,7 @@ strong{
     }
     main h1{
         left: 0;
+	    width:100%;
     }
     nav, .quiz, .why, main a, .qrcode, .galeria li p {
         display: none;
