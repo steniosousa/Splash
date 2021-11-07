@@ -1,6 +1,5 @@
-var texto = "Saia do 0, ";
-var texto2 = "chegue no 1";
-var Identado = texto + texto2;
+var texto = "Bem vindo ao curso de JavaScript";
+var Identado = texto ;
 var result;
 
 var count = 0;
